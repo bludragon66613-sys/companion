@@ -1,0 +1,6 @@
+{
+    "buildCommand": "pnpm --filter @proj-airi/stage-web^... build --concurrency=1 && cd apps/stage-web && npx vite build",
+    "outputDirectory": "apps/stage-web/dist",
+    "installCommand": "pnpm install --ignore-scripts",
+    "framework": "vite"
+}
